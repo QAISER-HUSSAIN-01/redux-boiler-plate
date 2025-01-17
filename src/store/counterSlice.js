@@ -4,6 +4,8 @@ const initialState = {
   value: 0,
 }
 
+console.log('commented in slice');
+
 export const counterSlice = createSlice({
   name: 'counter',
   initialState,

@@ -5,3 +5,5 @@ export const store = configureStore({
     counter:counterSlice
   },
 })
+
+console.log('commented in index redux store');
