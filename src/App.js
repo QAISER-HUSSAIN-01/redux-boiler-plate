@@ -3,6 +3,8 @@ import {increment,decrement} from './store/counterSlice';
 function App() {
   const dispatch = useDispatch()
   const val = useSelector((state)=>state.counter.value)
+  console.log('commented');
+  
   return (
     <div className="App">
     hello redux {val}
